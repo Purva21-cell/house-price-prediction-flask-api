@@ -1,0 +1,9 @@
+# Run after starting Flask with: python app.py
+
+# Health check
+curl http://127.0.0.1:5000/health
+
+# Prediction: replace example feature names/values with your model's actual inputs.
+curl -X POST http://127.0.0.1:5000/predict ^
+  -H "Content-Type: application/json" ^
+  -d "{\"features\":{\"actual_training_column_1\":1200,\"actual_training_column_2\":3}}"

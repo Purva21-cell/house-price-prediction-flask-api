@@ -1,0 +1,7 @@
+Flask>=3.0,<4.0
+joblib>=1.3
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+pytest>=8.0
+requests>=2.31
